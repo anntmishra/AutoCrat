@@ -1,8 +1,3 @@
-Sure! Based on the script and the project description, I'll create a README file for your GitHub repository. This README will include sections such as an introduction, features, installation instructions, usage, and contribution guidelines.
-
-Here's a sample `README.md` file:
-
-````markdown
 # AutoCrat - Code Typer
 
 AutoCrat is a desktop application that automates typing text with customizable start and write delays. It uses Python's `pyautogui` for simulating keyboard inputs and `tkinter` for the GUI.
@@ -67,6 +62,7 @@ This script will:
    - To stop typing, click the "Stop Typing" button.
 
 ## Project Structure
+
 ````
 
 AutoCrat/
@@ -106,3 +102,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - **Contributing**: Guidelines for contributing to the project.
 - **License**: Information about the project's license.
 - **Acknowledgments**: Credits to the libraries used in the project.
+````
