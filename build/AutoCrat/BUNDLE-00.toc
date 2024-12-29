@@ -1,3 +1,0 @@
-([('AutoCrat',
-   '/Users/anantmishra/Documents/GitHub/AutoCrat/dist/AutoCrat',
-   'EXECUTABLE')],)
