@@ -61,6 +61,7 @@ create_mac_shortcut() {
     APP_FOLDER="$HOME/Desktop/AutoCrat.app"
     mkdir -p "$APP_FOLDER/Contents/MacOS"
     echo '#!/bin/bash' > "$APP_FOLDER/Contents/MacOS/AutoCrat"
+    echo "source \"$HOME/Desktop/AutoCrat/venv/bin/activate\"" >> "$APP_FOLDER/Contents/MacOS/AutoCrat"
     echo "$HOME/Desktop/AutoCrat/venv/bin/python $HOME/Desktop/AutoCrat/Autotyper/autocrat_main.py" >> "$APP_FOLDER/Contents/MacOS/AutoCrat"
     chmod +x "$APP_FOLDER/Contents/MacOS/AutoCrat"
     echo "Shortcut created on your Desktop as AutoCrat.app."
