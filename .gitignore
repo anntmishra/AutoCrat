@@ -1,0 +1,15 @@
+# Virtual environment
+autocrat_env/
+venv/
+
+# Build files
+build/
+dist/
+*.spec
+
+# Python cache
+__pycache__/
+*.pyc
+
+# System files
+.DS_Store
